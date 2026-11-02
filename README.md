@@ -4,6 +4,10 @@ Aplicación funcional de asesoría laboral, tributaria y previsional. Django 5.2
 
 **Estado normativo:** no se pudieron consultar documentos oficiales porque el proxy del entorno respondió `403` a SII, Dirección del Trabajo y BCN. No se incorporaron citas, tasas ni límites jurídicos sin verificar. La biblioteca admite carga manual, extractos, fechas, enlaces y respaldos privados. Las reglas de demostración están **pendientes**, y los resultados definitivos y cálculos sin parámetros verificados se bloquean. Las pruebas matemáticas usan valores sintéticos identificados como tales, nunca normativa chilena.
 
+## Manual de usuario
+
+[Leer el flujo y manual de uso](docs/manual-usuario.md) · [Descargar manual PDF](docs/manual-usuario.pdf). Incluye el primer expediente, importación, poderes, trabajo efectivo, evaluaciones, APV, informes, roles y solución de problemas. Para regenerar el PDF: `.venv/bin/python scripts/generate_manual.py`.
+
 ## Ejecutar
 
 ```bash
