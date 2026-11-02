@@ -1,0 +1,12 @@
+.venv/
+__pycache__/
+*.py[cod]
+.env
+*.sqlite3
+private-media/
+staticfiles/
+artifacts/
+.demo-password
+.venv-*/
+.ruff_cache/
+.runtime/
